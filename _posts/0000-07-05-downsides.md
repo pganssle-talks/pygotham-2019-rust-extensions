@@ -123,9 +123,9 @@ In [6]: %timeit cython_ext.sieve(100000)
 
 --
 
-# FFI vs. API
+# C FFI (Milksnake) vs. API (PyO3)
 
-### FFI
+### C FFI
 
 <div style="display:flex">
 <div style="width: 50%">
