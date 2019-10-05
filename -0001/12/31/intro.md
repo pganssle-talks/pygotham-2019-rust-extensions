@@ -11,7 +11,7 @@ Paul Ganssle
 <br/>
 <br/>
 <span style="font-size: 1em;"><em>This talk on Github:
-<a href="https://github.com/pganssle-talks/europython-2019-rust-extensions">pganssle-talks/europython-2019-rust-extensions</a>
+<a href="https://github.com/pganssle-talks/pygotham-2019-rust-extensions">pganssle-talks/pygotham-2019-rust-extensions</a></em>
 </span>
 <!--
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
@@ -22,3 +22,15 @@ Paul Ganssle
 
 Notes:
 
+Today I'm going to be talking about writing Python extensions with Rust. This talk came about
+because I wanted to write a backend for dateutil in Rust and there were a bunch of different options
+and I didn't know which ones to choose and how they worked.
+
+One caveat I'd like to start with is that there are a lot of very code-heavy slides here, and a
+lot of them are written in Rust - those are mainly there for reference later, so don't feel compelled
+to try to understand them or even to figure out if they are "right" or "good in any way", just let
+them wash over you and enjoy the pretty syntax highlighting.
+
+--
+
+<img src="images/laughing-time.gif" alt="Laughing time is over" height="500px" />
