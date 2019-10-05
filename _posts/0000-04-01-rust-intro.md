@@ -38,7 +38,7 @@ fn some_func() {
 ```rust
 fn take_ownership(v : Vec<i32>) {
     // Do stuff with v
-} // Resources associated with v can be cleaned up
+}   // Resources associated with v can be cleaned up
 
 
 fn main() {
@@ -67,4 +67,12 @@ error[E0382]: borrow of moved value: `v`
    |                    ^ value borrowed here after move
 ```
 <fragment/>
+
+Notes:
+
+- An intro to give you a flavor of what it's like to program in Rust.
+- Generally speaking if you can get your Rust code to compile, you know that it
+  is free of large classes of bugs. Of course, that's not saying it's a *good*
+  program or even does what you want it to.
+- (optional) Unsafe blocks make the code auditable.
 
